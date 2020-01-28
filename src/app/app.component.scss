@@ -1,0 +1,52 @@
+.underline {
+	border: solid 2px white;
+	max-width: 100px;
+	width: 10vw;
+	margin: auto;
+}
+
+.jumbotron {
+	background-image: url('https://chicago.cbslocal.com/wp-content/uploads/sites/15116062/2014/01/business.jpg?w=625');
+	background-repeat: no-repeat;
+	// background-position: center;
+	background-size: cover;
+	// background-attachment: fixed;
+	height: 40vh;
+}
+
+.padding {
+	padding-top: 10vh;
+}
+
+.color {
+	color: #ff9900;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bio-div {
+	display: flex;
+	height: 100%;
+}
+
+.bio-text {
+	margin: auto;
+}
+
+.footer {
+	background-color:gray;
+}
+
+.quick-links {
+	text-decoration: none;
+	li {
+		text-decoration: none;
+		color: white;
+		a {
+			color: white;
+		}
+	}
+}
