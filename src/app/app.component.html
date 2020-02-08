@@ -1,32 +1,30 @@
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#home"><img class="img-fluid" src="/assets/TBR Logo Final-04.png"></a>
-		<button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
-			&#9776;
-		</button>
-		<div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#story" (click)="isMenuCollapsed = true">Our Story</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#bios" (click)="isMenuCollapsed = true">Bios</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contact" (click)="isMenuCollapsed = true">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<div class="jumbotron jumbotron-fluid" id="home">
-		<div>
-			<h1 class="col-12 text-center padding color title">
-				TBR Coaching
-			</h1>
-			<div class="underline col-12 color"></div>
-		</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="#home"><img class="img-fluid" src="/assets/TBR Logo Final-04.png"></a>
+	<button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+		&#9776;
+	</button>
+	<div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#story" (click)="isMenuCollapsed = true">Our Story</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#bios" (click)="isMenuCollapsed = true">Bios</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact" (click)="isMenuCollapsed = true">Contact</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<div class="jumbotron jumbotron-fluid" id="home">
+	<div>
+		<h1 class="col-12 text-center padding color title">
+			TBR Coaching
+		</h1>
+		<div class="underline col-12 color"></div>
 	</div>
 </div>
-<div>
 <div class="container">
 	<div class="text-center row">
 		<h1 class="col-12 color">TBR Performance Coaching and Consulting</h1>
@@ -121,7 +119,6 @@
 			</div>
 		</div>
 	</div>
-</div>
 </div>
 <section class="footer" id="footer">
 <div class="container">
